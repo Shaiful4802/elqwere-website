@@ -16,6 +16,7 @@
     --gilroy700: font-family: gilroy-700;
     --gilroy300: font-family: gilroy-300;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -302,6 +303,7 @@ a{
     color: #86878C;
     text-transform: capitalize;
     line-height: 26px;
+    padding-left: 15px;
 }
 .counter-info .counter-item3{
     width: 319px;
