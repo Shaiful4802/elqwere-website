@@ -3,10 +3,6 @@
         width: 100%;
         padding: 0 15px;
     }
-    #nav.sticky_menu {
-        display: none;
-    }
-    
     #nav{
         width: 100%;
     }
@@ -34,7 +30,7 @@
         width: 100%;
     }
     .banner-info .banner-subscribe input{
-        width: 70%;
+        width: calc(100% - 115px);
     }
     #counter{
         width: 100%;
@@ -56,6 +52,7 @@
     }
     .counter-bottom .counter-head h1{
         padding-bottom: 15px;
+        font-size: 35px;
     }
     .counter-bottom{
         flex-direction: column;
@@ -99,8 +96,8 @@
         text-align: center;
     }
     .review-info .review-head h1{
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 35px;
+        line-height: 45px;
         padding-bottom: 15px;
 
     }
