@@ -1,0 +1,121 @@
+@media (max-width:455px) {
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    #nav.sticky_menu {
+        display: none;
+    }
+    
+    #nav{
+        width: 100%;
+    }
+    .logo a img{
+        width: 60%;
+    }
+    .header-menu {
+        display:none;
+    }
+    .banner-info{
+        padding: 181px 0 80px;
+    }
+    .banner-info .banner-text-h {
+        width: 100%;
+    }
+    .banner-info .banner-text-h h1{
+        font-size: 35px;
+    }
+    .banner-info .banner-text-p {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-info .banner-subscribe{
+        width: 100%;
+    }
+    .banner-info .banner-subscribe input{
+        width: 64.6%;
+    }
+    #counter{
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+    .counter-info{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .counter-info .counter-item2{
+        width: 100%;
+    }
+    .counter-bottom .counter-head{
+        width: 100%;
+        text-align: left;
+    }
+    .counter-bottom{
+        flex-direction: column;
+    }
+    .counter-bottom .counter-text{
+        width: auto;
+    }
+    .counter-video .video-btn{
+        width: 100%;
+        height: 400px;
+    }
+    #service{
+        padding: 70px 10px;
+        width: 100%;
+    }
+    .service-container{
+        width: 100%;
+    }
+    .service-container .service-top h1{
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    .service-items .service-text{
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px 0 20px;
+    }
+    .service-items .service-text p{
+        width: 100%;
+    }
+    .review-info{
+        flex-direction: column;
+        padding: 0 0 20px;
+    }
+    .review-info .review-head{
+        width: 100%;
+    }
+    .review-info .review-text p{
+        width: 100%;
+    }
+    .review-items{
+        display: flex;
+        gap:30px;
+        flex-direction: column;
+    }
+    .review-items .item{
+        width: 100%;
+    }
+    footer{
+        padding: 70px 0 80px;
+    }
+    .footer-head{
+        gap:30px;
+        flex-direction: column;
+    }
+    .footer-head .footer-form{
+        width:100%;
+        padding: 36px;
+        margin: 0;
+    }
+    .footer-head .footer-info{
+        width: 100%;
+    }
+    .footer-link{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
