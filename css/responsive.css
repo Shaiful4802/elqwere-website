@@ -17,7 +17,7 @@
         display:none;
     }
     .banner-info{
-        padding: 181px 0 80px;
+        padding: 150px 0 80px;
     }
     .banner-info .banner-text-h {
         width: 100%;
@@ -28,16 +28,17 @@
     .banner-info .banner-text-p {
         width: 100%;
         text-align: center;
+        padding: 10px 0 30px;
     }
     .banner-info .banner-subscribe{
         width: 100%;
     }
     .banner-info .banner-subscribe input{
-        width: 64.6%;
+        width: 70%;
     }
     #counter{
         width: 100%;
-        padding: 0;
+        padding: 70px 15px;
         height: auto;
     }
     .counter-info{
@@ -47,10 +48,14 @@
     }
     .counter-info .counter-item2{
         width: 100%;
+        padding: 30px 0;
     }
     .counter-bottom .counter-head{
         width: 100%;
         text-align: left;
+    }
+    .counter-bottom .counter-head h1{
+        padding-bottom: 15px;
     }
     .counter-bottom{
         flex-direction: column;
@@ -63,20 +68,24 @@
         height: 400px;
     }
     #service{
-        padding: 70px 10px;
+        padding: 70px 20px;
         width: 100%;
     }
     .service-container{
         width: 100%;
     }
     .service-container .service-top h1{
-        text-align: left;
+        text-align: center;
         padding-bottom: 30px;
     }
     .service-items .service-text{
         flex-direction: column;
         gap: 30px;
         padding: 10px 0 20px;
+        text-align: center;
+    }
+    .service-items .service-head h1{
+        text-align: center;
     }
     .service-items .service-text p{
         width: 100%;
@@ -87,9 +96,17 @@
     }
     .review-info .review-head{
         width: 100%;
+        text-align: center;
+    }
+    .review-info .review-head h1{
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 15px;
+
     }
     .review-info .review-text p{
         width: 100%;
+        text-align: center;
     }
     .review-items{
         display: flex;
@@ -113,9 +130,12 @@
     }
     .footer-head .footer-info{
         width: 100%;
+        text-align: center;
     }
     .footer-link{
         flex-direction: column;
         gap: 30px;
     }
+    .footer-link{
+        padding-top: 50px;
 }
